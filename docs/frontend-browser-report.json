@@ -1,0 +1,135 @@
+{
+  "consoleErrors": [],
+  "failedRequests": [],
+  "widths": {
+    "320": {
+      "scrollWidth": 320,
+      "clientWidth": 320,
+      "title": "MOON · Courier World",
+      "h1": "Deliver letters. Earn MOON.",
+      "firstScreen": [
+        "Connect wallet",
+        "Deliver letters. Earn MOON.",
+        "Play Courier World",
+        "Claim a mission",
+        "Shop",
+        "Reward pool"
+      ],
+      "poolCard": 598.1875,
+      "stats": [
+        "0 MOON",
+        "0 MOON",
+        "0 MOON",
+        "0 MOON",
+        "700,000,000 MOON",
+        "Not funded"
+      ],
+      "fundedState": "NOT FUNDED",
+      "fonts": [
+        "Bungee",
+        "Patrick Hand"
+      ]
+    },
+    "390": {
+      "scrollWidth": 390,
+      "clientWidth": 390,
+      "title": "MOON · Courier World",
+      "h1": "Deliver letters. Earn MOON.",
+      "firstScreen": [
+        "Connect wallet",
+        "Deliver letters. Earn MOON.",
+        "Play Courier World",
+        "Claim a mission",
+        "Shop",
+        "Reward pool"
+      ],
+      "poolCard": 460,
+      "stats": [
+        "0 MOON",
+        "0 MOON",
+        "0 MOON",
+        "0 MOON",
+        "700,000,000 MOON",
+        "Not funded"
+      ],
+      "fundedState": "NOT FUNDED",
+      "fonts": [
+        "Bungee",
+        "Patrick Hand"
+      ]
+    },
+    "1440": {
+      "scrollWidth": 1440,
+      "clientWidth": 1440,
+      "title": "MOON · Courier World",
+      "h1": "Deliver letters. Earn MOON.",
+      "firstScreen": [
+        "Connect wallet",
+        "Deliver letters. Earn MOON.",
+        "Play Courier World",
+        "Claim a mission",
+        "Shop",
+        "Reward pool",
+        "Claim a mission reward"
+      ],
+      "poolCard": 268,
+      "stats": [
+        "0 MOON",
+        "0 MOON",
+        "0 MOON",
+        "0 MOON",
+        "700,000,000 MOON",
+        "Not funded"
+      ],
+      "fundedState": "NOT FUNDED",
+      "fonts": [
+        "Bungee",
+        "Patrick Hand"
+      ]
+    }
+  },
+  "wallet": {
+    "disconnectedClaimDisabled": true,
+    "disconnectedHint": 1,
+    "wrongChainShown": true,
+    "claimDisabledOnWrongChain": true,
+    "addedChain": {
+      "chainId": "0x1237",
+      "chainName": "Robinhood Chain",
+      "rpcUrls": [
+        "https://robinhood-rpc.publicnode.com",
+        "https://rpc.mainnet.chain.robinhood.com"
+      ],
+      "nativeCurrency": {
+        "name": "Ether",
+        "symbol": "ETH",
+        "decimals": 18
+      },
+      "blockExplorerUrls": [
+        "https://robin.etherscan.io"
+      ]
+    },
+    "requestLog": [
+      "wallet_requestPermissions",
+      "eth_requestAccounts",
+      "wallet_switchEthereumChain",
+      "wallet_addEthereumChain",
+      "wallet_switchEthereumChain"
+    ],
+    "ownerPanel": 1,
+    "yourMoon": "Pool balance0 MOONActivation needs 700,000,000 MOONPaid today0 MOON0% of the 1,000,000 daily capTotal paid to players0 MOONBurned by the shop0 MOON0 MOON recycled into the poolCreator wallet MOON700,000,000 MOONTarget: 0ClaimsNot fundedYour MOON700,000,000 MOON0 of 20,000 claimed today",
+    "badVoucherMessage": "The voucher player must be an address.",
+    "claimStillDisabled": true,
+    "claimProblems": [
+      "The pool is NOT FUNDED; claims cannot pay yet.",
+      "The owner has not set the game server signer yet."
+    ],
+    "claimDisabledWithProblems": true,
+    "fundApproveEnabled": true,
+    "fundDepositDisabled": true,
+    "fundRejectMessage": "You rejected the request in your wallet.Dismiss",
+    "quoteLine": "You receive about 209,899.6632 MOON (minimum 207,800.6666 after 1% slippage). Rate: 1 IMD ≈ 209,899.6632 MOON.",
+    "firstFocus": ""
+  },
+  "reducedMotionAnimation": "none"
+}

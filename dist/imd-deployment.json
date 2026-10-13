@@ -1,0 +1,135 @@
+{
+  "version": 1,
+  "launchId": "86aeced2-7ec5-43bf-a107-820fb27c9a77",
+  "chainId": 4663,
+  "sourceCommit": "cf108517b37cb90f40c256d731df4aa2c65b88ca",
+  "attestationHash": "2c540d4ebeda9409a02ec366b0a49d723dec8210d4650c484315f814e830fb31",
+  "contracts": [
+    {
+      "name": "LaunchToken",
+      "address": "0x7deec126e0bc35b1246129f30b6d6f17a6ec9392",
+      "abiHash": "c973bdcd97186fd8aa6a7f3241f64d5e6688c783edb047d63cfe1e8d00c7707b",
+      "abiPath": "abi/LaunchToken.json"
+    },
+    {
+      "name": "MoonRewards",
+      "address": "0x55c6548125c5fe33d59950d814fcd91222e87cd6",
+      "abiHash": "5028a3d1260449b2d656fd7b9a87627e39d10b4792407ac53ede6b5f36d3c8ff",
+      "abiPath": "abi/MoonRewards.json"
+    },
+    {
+      "name": "MoonShop",
+      "address": "0x2c328e6d3ae72e5b06e10884d83b01f1b0342f85",
+      "abiHash": "185a30c9f8938ddf8d9b5003b8fe1382c830c5de8bed679cc16761ca27492969",
+      "abiPath": "abi/MoonShop.json"
+    }
+  ],
+  "assets": [
+    {
+      "path": "abi/IPostOffice.json",
+      "sha256": "76d7a32a9506ccbb3a15d57f77c39f159459f56729106dfbd2c203e3ce980fb3"
+    },
+    {
+      "path": "abi/LaunchToken.json",
+      "sha256": "6d1cde3446cdd8c420b330d9238d1d65655696fe5249bec505ee6b47904207da"
+    },
+    {
+      "path": "abi/MoonRewards.json",
+      "sha256": "0c3a66c7a61230cd542e7812322009a1c9820ee1a03fcbf495692191e8983a26"
+    },
+    {
+      "path": "abi/MoonShop.json",
+      "sha256": "f94f0364079e7eec21cb9b44e92e97f9a8a9aa0575cd890d2b8e79f010962c2d"
+    },
+    {
+      "path": "assets/ccip-EI3qcNcl.js",
+      "sha256": "b76e6cdd288a0a3e6c43588e5301637dbd37341a6e0f508f85ec160a80bba5da"
+    },
+    {
+      "path": "assets/index-C0FGDXmb.js",
+      "sha256": "bb352029492e852adc1c0b3f7ae94a326c9a3151c9d252796c33850979bcd6b1"
+    },
+    {
+      "path": "assets/index-DMB7a_lx.css",
+      "sha256": "1982980a5895b35f0cb65f2ca02f61f6b179cedf0848a769d7812429f6572bcd"
+    },
+    {
+      "path": "favicon.svg",
+      "sha256": "8783e12b82b08205f89754e0a93917fe4396099e176e16f8d7f42832375734b2"
+    },
+    {
+      "path": "fonts/bungee-latin.woff2",
+      "sha256": "126eec706b7931682dbcf6c6efc274132c603f181fbf912678e6cfeb341e721b"
+    },
+    {
+      "path": "fonts/patrick-hand-latin.woff2",
+      "sha256": "ac5bc9033b2572bf84d39f7150c1634e37ed16e8dbee632d6d0bceac0bbf0199"
+    },
+    {
+      "path": "index.html",
+      "sha256": "17b4abac707b0807d86d403ff0e9fb5fa44f567c04709b5125a367c3f37a729f"
+    },
+    {
+      "path": "og.png",
+      "sha256": "434adc753d22956891df769dd2f2140aabb35b57ec416c7bbf56804d4789ac1b"
+    },
+    {
+      "path": "voucher-types.json",
+      "sha256": "6b24cbf8aa38af995e37d7171d13e644aad9a4705cc441a1543ffec455ac6e93"
+    }
+  ],
+  "poolKey": {
+    "currency0": "0x5f7bb59365ce557c26dbcaa4ee9d39a4b95b7127",
+    "currency1": "0x7deec126e0bc35b1246129f30b6d6f17a6ec9392",
+    "fee": 12500,
+    "tickSpacing": 60,
+    "hooks": "0x19bec7c2e1b2aadaf67b259744751a9960d66000"
+  },
+  "network": {
+    "chainId": 4663,
+    "name": "Robinhood Chain",
+    "testnet": false,
+    "rpcUrls": [
+      "https://robinhood-rpc.publicnode.com",
+      "https://rpc.mainnet.chain.robinhood.com"
+    ],
+    "explorer": "https://robin.etherscan.io",
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "faucets": [],
+    "uniswapV4": {
+      "poolManager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+      "universalRouter": "0x8876789976decbfcbbbe364623c63652db8c0904",
+      "quoter": "0x8dc178efb8111bb0973dd9d722ebeff267c98f94",
+      "stateView": "0xf3334192d15450cdd385c8b70e03f9a6bd9e673b",
+      "positionManager": "0x58daec3116aae6d93017baaea7749052e8a04fa7",
+      "permit2": "0x000000000022d473030f116ddee9f6b43ac78ba3",
+      "extendedSwapParams": true
+    },
+    "pairToken": {
+      "address": "0x5f7bb59365ce557c26dbcaa4ee9d39a4b95b7127",
+      "symbol": "IMD",
+      "name": "Identity.md",
+      "decimals": 18
+    }
+  },
+  "walletAddChain": {
+    "chainId": "0x1237",
+    "chainName": "Robinhood Chain",
+    "rpcUrls": [
+      "https://robinhood-rpc.publicnode.com",
+      "https://rpc.mainnet.chain.robinhood.com"
+    ],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "blockExplorerUrls": [
+      "https://robin.etherscan.io"
+    ]
+  }
+}
